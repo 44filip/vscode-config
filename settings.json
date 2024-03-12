@@ -1,78 +1,81 @@
 {
-    // Sets the global scaling
-    "window.zoomLevel": 0.5,
-    // Disables the Minimap
-    "editor.minimap.enabled": false,
-    // Only renders whitespace when a portion of text is selected
-    "editor.renderWhitespace": "selection",
-    // Enables line highlighting
-    "editor.renderLineHighlight": "line",
-    // Disables the overview ruler
-    "editor.overviewRulerBorder": false,
-    // Hides cursor in overview ruler (if it exists)
-    "editor.hideCursorInOverviewRuler": true,
-    // Disables code folding
-    "editor.folding": false,
-    // Disables highlighting word occurences
-    "editor.occurrencesHighlight": "off",
-    // Disables matching brackets
-    "editor.matchBrackets": "never",
-    // Disables glyph margin
-    "editor.glyphMargin": false,
-    // Hides open editors in the Explorer pane
-    "explorer.openEditors.visible": 1,
-    // Disables icons in the tabs
-    "workbench.editor.showIcons": false,
-    // Shows statusbar
-    "workbench.statusBar.visible": true,
-    // Color for indenticator (for indentation level)
-    "indenticator.color.dark": "rgba(255,255,255,.1)",
-    "workbench.colorCustomizations": {
+  "window.zoomLevel": 0.5,
+  // Disables the Minimap
+  "editor.minimap.enabled": false,
+  // Only renders whitespace when a portion of text is selected
+  "editor.renderWhitespace": "selection",
+  // Enables line highlighting
+  "editor.renderLineHighlight": "line",
+  // Disables the overview ruler
+  "editor.overviewRulerBorder": false,
+  // Hides cursor in overview ruler (if it exists)
+  "editor.hideCursorInOverviewRuler": true,
+  // Disables code folding
+  "editor.folding": false,
+  // Disables highlighting word occurences
+  "editor.occurrencesHighlight": "off",
+  // Disables matching brackets
+  "editor.matchBrackets": "never",
+  // Disables glyph margin
+  "editor.glyphMargin": false,
+  // Hides open editors in the Explorer pane
+  "explorer.openEditors.visible": 1,
+  // Disables icons in the tabs
+  "workbench.editor.showIcons": false,
+  // Shows statusbar
+  "workbench.statusBar.visible": true,
+  // Color for indenticator (for indentation level)
+  "indenticator.color.dark": "rgba(255,255,255,.1)",
+  "workbench.colorCustomizations": {
       // Tab active border color
       "tab.activeBorder": "#0000"
-    },
-    // Sets font family
-    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-    // Sets font size
-    "editor.fontSize": 16,
-    // Enables font ligatures
-    "editor.fontLigatures": true,
-    // Enables the cool cursive like font variations
-    "editor.fontVariations": true,
-    // Enables smooth caret animation
-    "editor.cursorBlinking": "phase",
-    // Makes the cursor move around the code smoothly
-    "editor.cursorSmoothCaretAnimation": "on",
-    // Adjusts the line height, also changes the caret width
-    "editor.lineHeight": 26,
-    // Enables line numbers
-    "editor.lineNumbers": "on",
-    // Enables different color pools for different bracket types, for example {}, [], ()
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    // Disables guides for bracket pairs
-    "editor.guides.bracketPairs": false,
-    // Disbales breadcrumbs
-    "breadcrumbs.enabled": false,
-    // Disables top-right layout control
-    "workbench.layoutControl.enabled": false,
-    // Sets the window title 
-    "window.title": "${dirty}${activeEditorShort}",
-    // Sets icon theme
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
-    // Disables indent guides
-    "workbench.tree.renderIndentGuides": "none",
-    // Sets the icon theme for the window icons and autocomplete suggestions
-    "workbench.productIconTheme": "material-product-icons",
-    // Enables smooth scrolling
-    "editor.smoothScrolling": true,
-    // Enables the close button on tabs
-    "workbench.editor.tabCloseButton": "on",
-    // Sets the syntax theme
-    "workbench.colorTheme": "Material Theme Darker",
-    // Disables the command center
-    "window.commandCenter": false,
-    // Disables the welcome page
-    "workbench.startupEditor": "none",
-    // Disables sticky scroll
-    "editor.stickyScroll.enabled": false,
-  }
+  },
+  // Sets font family
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  // Sets font size
+  "editor.fontSize": 16,
+  // Enables font ligatures
+  "editor.fontLigatures": true,
+  // Enables the cool cursive like font variations
+  "editor.fontVariations": true,
+  // Enables smooth caret animation
+  "editor.cursorBlinking": "phase",
+  // Makes the cursor move around the code smoothly
+  "editor.cursorSmoothCaretAnimation": "on",
+  // Adjusts the line height, also changes the caret width
+  "editor.lineHeight": 26,
+  // Enables line numbers
+  "editor.lineNumbers": "on",
+  // Enables different color pools for different bracket types, for example {}, [], ()
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  // Disables guides for bracket pairs
+  "editor.guides.bracketPairs": false,
+  // Disbales breadcrumbs
+  "breadcrumbs.enabled": false,
+  // Disables top-right layout control
+  "workbench.layoutControl.enabled": false,
+  // Sets the window title 
+  "window.title": "${dirty}${activeEditorShort}",
+  // Sets icon theme
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  // Disables indent guides
+  "workbench.tree.renderIndentGuides": "none",
+  // Sets the icon theme for the window icons and autocomplete suggestions
+  "workbench.productIconTheme": "material-product-icons",
+  // Enables smooth scrolling
+  "editor.smoothScrolling": true,
+  // Enables the close button on tabs
+  "workbench.editor.tabCloseButton": "on",
+  // Sets the syntax theme
+  "workbench.colorTheme": "Material Theme Darker",
+  // Disables the command center
+  "window.commandCenter": false,
+  // Disables the welcome page
+  "workbench.startupEditor":"none",
+  // Disables sticky scroll
+  "editor.stickyScroll.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  // No confirmation dialogue
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+}
