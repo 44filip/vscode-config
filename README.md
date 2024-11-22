@@ -6,4 +6,9 @@ Somewhat sleek and clean design, catered to my preferences. 🎨
 
 ![config](https://github.com/44filip/vscode-config/assets/100999946/9b7a6163-6343-4bd3-94b9-595daf0f369d)
 
+**Extension IDs:**\
+PKief.material-product-icons\
+Equinusocio.vsc-material-theme\
+equinusocio.vsc-material-theme-icons
+
 @44filip 👋
