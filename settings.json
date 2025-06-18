@@ -61,7 +61,8 @@
   // Disables indent guides
   "workbench.tree.renderIndentGuides": "none",
   // Sets the icon theme for the window icons and autocomplete suggestions
-   "workbench.iconTheme": "vira-icons-graphene",
+  "workbench.iconTheme": "vira-icons-graphene",
+  "workbench.productIconTheme": "material-product-icons",
   // Enables smooth scrolling
   "editor.smoothScrolling": true,
   // Enables the close button on tabs
